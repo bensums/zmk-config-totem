@@ -85,31 +85,31 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define UK_NOT   S(UK_GRAVE) // ¬
-#define UK_EXCL  S(UK_N1)    // !
-#define UK_DQT   S(UK_N2)    // "
-#define UK_POUND S(UK_N3)    // £
-#define UK_DLLR  S(UK_N4)    // $
-#define UK_PRCNT S(UK_N5)    // %
-#define UK_CARET S(UK_N6)    // ^
-#define UK_AMPS  S(UK_N7)    // &
-#define UK_ASTRK S(UK_N8)    // *
-#define UK_LPAR  S(UK_N9)    // (
-#define UK_RPAR  S(UK_N0)    // )
-#define UK_UNDER S(UK_MINUS) // _
-#define UK_PLUS  S(UK_EQUAL) // +
+#define UK_NOT   LS(UK_GRAVE) // ¬
+#define UK_EXCL  LS(UK_N1)    // !
+#define UK_DQT   LS(UK_N2)    // "
+#define UK_POUND LS(UK_N3)    // £
+#define UK_DLLR  LS(UK_N4)    // $
+#define UK_PRCNT LS(UK_N5)    // %
+#define UK_CARET LS(UK_N6)    // ^
+#define UK_AMPS  LS(UK_N7)    // &
+#define UK_ASTRK LS(UK_N8)    // *
+#define UK_LPAR  LS(UK_N9)    // (
+#define UK_RPAR  LS(UK_N0)    // )
+#define UK_UNDER LS(UK_MINUS) // _
+#define UK_PLUS  LS(UK_EQUAL) // +
 // Row 2
-#define UK_LBRC S(UK_LBKT) // {
-#define UK_RBRC S(UK_RBKT) // }
+#define UK_LBRC LS(UK_LBKT) // {
+#define UK_RBRC LS(UK_RBKT) // }
 // Row 3
-#define UK_COLON S(UK_SEMI) // :
-#define UK_AT    S(UK_SQT)  // @
-#define UK_TILDE S(UK_HASH) // ~
+#define UK_COLON LS(UK_SEMI) // :
+#define UK_AT    LS(UK_SQT)  // @
+#define UK_TILDE LS(UK_HASH) // ~
 // Row 4
-#define UK_PIPE  S(UK_BSLH)  // |
-#define UK_LT    S(UK_COMMA) // <
-#define UK_GT    S(UK_DOT)   // >
-#define UK_QMARK S(UK_FSLH)  // ?
+#define UK_PIPE  LS(UK_BSLH)  // |
+#define UK_LT    LS(UK_COMMA) // <
+#define UK_GT    LS(UK_DOT)   // >
+#define UK_QMARK LS(UK_FSLH)  // ?
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -125,12 +125,12 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define UK_BRKP ALGR(UK_GRAVE) // ¦
-#define UK_EURO ALGR(UK_N4)    // €
+#define UK_BRKP RA(UK_GRAVE) // ¦
+#define UK_EURO RA(UK_N4)    // €
 // Row 2
-#define UK_EACU ALGR(UK_E) // É
-#define UK_UACU ALGR(UK_U) // Ú
-#define UK_IACU ALGR(UK_I) // Í
-#define UK_OACU ALGR(UK_O) // Ó
+#define UK_EACU RA(UK_E) // É
+#define UK_UACU RA(UK_U) // Ú
+#define UK_IACU RA(UK_I) // Í
+#define UK_OACU RA(UK_O) // Ó
 // Row 3
-#define UK_AACU ALGR(UK_A) // Á
+#define UK_AACU RA(UK_A) // Á
