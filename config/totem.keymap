@@ -16,6 +16,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#include "keys_uk.h"
+
 #define BASE 0
 #define NAV  1
 #define SYM  2
@@ -129,12 +131,12 @@ label= "SYM"                               ;
 //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷           ╷           ╷           ╷            ╷           ╷            ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT       
-                &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
-                                        &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans      
+                &kp UK_EXCL &kp UK_DQT  &kp UK_POUND &kp UK_DLLR &kp UK_PRCNT     &kp UK_CARET &kp UK_AMPS    &none   &none       &none        
+                &kp RA(A)   &trans      &kp RA(S)    &trans      &trans           &kp C_MUTE   &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
+    &trans      &kp RA(F18) &kp RA(F19) &trans       &trans      &trans           &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
+                                        &trans       &gif        &mo ADJ          &trans       &kp C_PP    &trans      
                         >;
                 };
 
