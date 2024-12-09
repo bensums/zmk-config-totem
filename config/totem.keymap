@@ -136,7 +136,7 @@ label= "SYM"                               ;
                 &kp UK_EXCL &kp UK_DQT  &kp UK_POUND &kp UK_DLLR  &kp UK_PRCNT     &kp UK_CARET &kp UK_AMPS  &none        &none       &none
                 &none       &none       &none        &none        &none            &none        &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE  &none
     &none       &none       &none       &none        &none        &none            &none        &none        &none        &none       &kp BSLH    &none
-                                        &none        &none        &kp RS(UK_DASH)  &none        &none        &none      
+                                        &none        &none        &kp UK_UNDER     &none        &none        &none
                         >;
                 };
 
