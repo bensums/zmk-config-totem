@@ -57,7 +57,7 @@
 #define UK_SQT  SQT  // '
 #define UK_HASH NUHS // #
 // Row 4
-#define UK_BSLH  BSLH  // (backslash)
+#define UK_BSLH  NUBS  // (backslash)
 #define UK_Z     Z     // Z
 #define UK_X     X     // X
 #define UK_C     C     // C
