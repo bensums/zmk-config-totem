@@ -117,7 +117,7 @@ label= "SYM"                               ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃           ┃           ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃           ┃           ┃           ┃           ┃     =     ┃   ┃           ┃           ┃           ┃           ┃           ┃
+//             ┃           ┃           ┃           ┃           ┃     =     ┃   ┃           ┃   BACK    ┃           ┃  FORWARD  ┃           ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃     `     ┃   ┃           ┃   VOL-    ┃   MUTE    ┃    VOL+   ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -126,9 +126,9 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷            ╷            ╷            ╷   ╷            ╷            ╷           ╷            ╷           ╷           ╷
 
-                &kp UK_EXCL &kp UK_DQT  &kp UK_POUND &kp UK_DLLR  &kp UK_PRCNT     &kp UK_CARET &kp UK_AMPS  &none       &none        &none
-                &none       &none       &none        &none        &kp UK_EQUAL     &none        &none        &none       &none        &none
-    &none       &none       &none       &none        &none        &kp UK_GRAVE     &none        &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &none       &none
+                &kp UK_EXCL &kp UK_DQT  &kp UK_POUND &kp UK_DLLR  &kp UK_PRCNT     &kp UK_CARET &kp UK_AMPS  &none       &none         &none
+                &none       &none       &none        &none        &kp UK_EQUAL     &none        &kp K_BACK   &none       &kp K_FORWARD &none
+    &none       &none       &none       &none        &none        &kp UK_GRAVE     &none        &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP  &none      &none
                                         &none        &none        &kp UK_UNDER     &none        &none        &none
                         >;
                 };
